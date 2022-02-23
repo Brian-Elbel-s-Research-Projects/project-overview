@@ -26,3 +26,5 @@ A couple of things to note when you incorporate Git into your workflow.
   - Write a meaningful commit message, i.e. "end of day Jan 1, 2022" is not a great commit message
   - You don't have to make a commit everyday, unless someone else's coding depends on yours
 
+## Learning markdown
+To make a readme.md, you'll have to learn at least some basic markdown, get started [here](https://www.markdownguide.org/getting-started/) and get a cheatsheet [here](https://www.markdownguide.org/cheat-sheet/).
