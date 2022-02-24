@@ -36,4 +36,4 @@ A summary of current and past research projects in Elbel lab
 | ----------- | ----------- |----------- |----------- |
 |[Food environment paper 1](https://github.com/eriliawu/home-food-env)|Descriptive paper, association between food access and race/ethnicity and income, at home and at school |Erilia|[Disparities in food access around homes and schools for New York City children](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217341)|
 |Food environment paper 2|Association between access to food and likelihood of overweight/obesity, as well as zBMI|Erilia|[Childhood Obesity and the Food Environment](https://onlinelibrary.wiley.com/doi/10.1002/oby.22663)|
-|FRESH|Impact of FRESH supermarket on childhood obesity of students living nearby|Jeremy||forthcoming in JAMA Pediatrics
+|FRESH|Impact of FRESH supermarket on childhood obesity of students living nearby|Jeremy|forthcoming in [JAMA Pediatrics](https://jamanetwork.com/journals/jamapediatrics)|
