@@ -22,6 +22,7 @@ All research projects should be created in the lab GitHub account (instead of yo
 A couple of things to note when you incorporate Git into your workflow.
 - For the repo
   - Keep only code on the repo (add other folders and files to .gitignore)
+  - No PHI on GitHub, i.e. no hard coding such as ```data$name='jane' if data$ssn=='000-11-2222'```
 - Daily workflow
   - Write a meaningful commit message, i.e. "end of day Jan 1, 2022" is not a great commit message
   - You don't have to make a commit everyday, unless someone else's coding depends on yours
