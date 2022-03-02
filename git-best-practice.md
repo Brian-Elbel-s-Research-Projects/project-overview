@@ -1,5 +1,5 @@
 # Using Git and GitHub at Elbel lab
-All research projects should be created in the lab GitHub account (instead of your personal account). A helpful [guide](https://swcarpentry.github.io/git-novice/) to get started.
+All research projects should be created in the lab GitHub account (instead of your personal account). A helpful [guide](https://swcarpentry.github.io/git-novice/) to get started. You can download the git client [here](https://git-scm.com/downloads).
 
 ## Create a Git project on GitHub
 - If you already have a repo for a project somewhere else (e.g. your personal account), you could import the existing repo into our team account. Click on *New* --> *Import a repository*.
