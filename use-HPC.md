@@ -108,4 +108,4 @@ for (i in 2007:2015) {
 dbDisconnect(tb)
 ```
 There are ```print()``` statements embedded throughout the script.
-If a job you submitted was aborted before it was fone, these statements help you understand which part of the script ran and where the error may have occurred.
+If a job you submitted was aborted before it was done, these statements help you understand which part of the script ran and where the error may have occurred.
