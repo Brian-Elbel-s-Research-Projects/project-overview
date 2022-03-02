@@ -6,8 +6,8 @@ All research projects should be created in the lab GitHub account (instead of yo
    - Specific to your project. Do not simply label it with the grant name, such as tacobell, or soda tax 
    - Do not leave space in the name
 - Each repo should have:
-  -  Add a readme file. In the readme.md file, give a brief description of the research project, and what each script in the repo does (to help others read your code)
-  -  Add a .gitignore
+  -  A readme file. In the readme.md file, give a brief description of the research project, and what each script in the repo does (to help others read your code)
+  -  A .gitignore
 - Repo features
   - Make repos private
   - You should be the sole owner of the repos you create, unless you are collaborating with other analysts
@@ -22,7 +22,7 @@ All research projects should be created in the lab GitHub account (instead of yo
 A couple of things to note when you incorporate Git into your workflow.
 - For the repo
   - Keep only code on the repo (add other folders and files to .gitignore)
-  - No PHI on GitHub, i.e. no hard coding such as ```data$name[data$ssn=='000-11-2222']='jane'```
+  - No PHI on GitHub, i.e. no hard coding such as ```data$name[data$ssn=='000-11-2222'] <- 'jane'``` You could pull in reference data like this from an external .csv file.
 - Daily workflow
   - Write a meaningful commit message, i.e. "end of day Jan 1, 2022" is not a great commit message
   - You don't have to make a commit everyday, unless someone else's coding depends on yours
