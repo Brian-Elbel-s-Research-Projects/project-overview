@@ -4,12 +4,12 @@ A summary of current and past research projects in Elbel lab
 ## Menu labeling
 | Project      | Summary | Analyst | Published Paper |
 | ----------- | ----------- |----------- |----------- |
-|Impact of menu labeling on calories purchased|Drive-through orders only, treatment sites before national roll-out|Lloyd and Erilia||
+|[Impact of menu labeling on calories purchased](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-aim1)|Drive-through orders only, treatment sites before national roll-out|Lloyd and Erilia||
 |National roll-out|Impact of menu labeling post national roll-out|||
 |Menu labeling on in-store orders|In-store orders only, treatment sites before national roll-out|||
 |Menu labeling in California|Compare in-store (treatment) and drive-through orders (comparison)|||
 |Legislation vs. implementation|Compare sites that passed the law (never implemented) and the ones that implemented|||
-|Purchase by community characteristics|Examine calorie purchase by demographic characteristics in communities surrounding the restaurants|Lloyd||
+|[Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-aim2)|Examine calorie purchase by demographic characteristics in communities surrounding the restaurants|Lloyd||
 |Analysis by purchase characteristics|Examine calorie by purchase characteristics, such as time of day, day of the week, etc|||
 
 ## Soda tax
@@ -24,7 +24,7 @@ A summary of current and past research projects in Elbel lab
 ## COVID/SPHR
 | Project      | Summary | Analyst |Published Paper |
 | ----------- | ----------- |----------- |----------- |
-|Vaccine uptake (best predictors)||||
+|[Vaccine uptake (best predictors)](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-aim0)||||
 
 ## Healthy neighborhood
 | Project      | Summary | Analyst |Published Paper |
