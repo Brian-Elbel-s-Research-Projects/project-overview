@@ -128,3 +128,5 @@ git config --global user.name "user_name"
 git config --global user.email "email_address"
 ```
 
+## Multi-core processing 
+
