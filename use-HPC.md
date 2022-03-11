@@ -132,4 +132,3 @@ git config --global user.email "email_address"
 
 ## Multi-core processing 
 
-## Create a view table
