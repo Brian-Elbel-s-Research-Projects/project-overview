@@ -109,3 +109,22 @@ dbDisconnect(tb)
 ```
 There are ```print()``` statements embedded throughout the script.
 If a job you submitted was aborted before it was done, these statements help you understand which part of the script ran and where the error may have occurred.
+
+## Make git repo on HPC
+Often time, when you run queries on HPC, and analyze the exported data on your local machine, you want to version control and track those scripts in both of these locations.
+To track a folder on HPC, simply clone the GitHub repo onto your destination folder on HPC.
+
+```bash
+cd <destination_folder> #change directory to the one to be tracked
+git clone <REPO_URI> temp #copy the URI from the new repo you just created on GitHub
+mv temp/.git . # Copy the hidden git directory
+mv temp/* .    # Copy every non-hidden file
+rm -rf temp    # Cleanup
+```
+
+If this is the first time you're using git on HPC, you may want to change your username and email address.
+```bash
+git config --global user.name "user_name"
+git config --global user.email "email_address"
+```
+
