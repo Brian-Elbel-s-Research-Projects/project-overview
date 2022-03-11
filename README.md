@@ -15,7 +15,7 @@ A summary of current and past research projects in Elbel lab
 ## Soda tax
 | Project      | Summary | Analyst |Published Paper |
 | ----------- | ----------- |----------- |----------- |
-|Construct new tacobell database||Erilia|-|
+|[Construct new tacobell database](https://github.com/Brian-Elbel-s-Research-Projects/construct-tacobell2)||Erilia|-|
 |Price change in beverage||||
 |Price change in combo meal||||
 |Relative price change||||
