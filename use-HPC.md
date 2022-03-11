@@ -113,8 +113,10 @@ If a job you submitted was aborted before it was done, these statements help you
 ## Make git repo on HPC
 Often time, when you run queries on HPC, and analyze the exported data on your local machine, you want to version control and track those scripts in both of these locations.
 To track a folder on HPC, simply clone the GitHub repo onto your destination folder on HPC.
+In the HPC terminal:
 
 ```bash
+module load git/2.17.0
 cd <destination_folder> #change directory to the one to be tracked
 git clone <REPO_URI> temp #copy the URI from the new repo you just created on GitHub
 mv temp/.git . # Copy the hidden git directory
