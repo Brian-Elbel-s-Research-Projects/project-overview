@@ -17,3 +17,5 @@ To differentiate view tables from base tables, you should end the table name wit
 For example, if you want to make a subset of product table with just burritos, the new view table could be named something like ```product_burritos_view```.
 
 To see exactly which tables are base and view, query ```show full tables;```
+
+To learn more about creating view tables, check [this](https://www.mysqltutorial.org/create-sql-views-mysql.aspx) out.
