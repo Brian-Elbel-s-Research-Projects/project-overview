@@ -18,4 +18,32 @@ For example, if you want to make a subset of product table with just burritos, t
 
 To see exactly which tables are base and view, query ```show full tables;```
 
+```SQL
+MariaDB [tacobell2]> show full tables;
++-----------------------+------------+
+| Tables_in_tacobell2   | Table_type |
++-----------------------+------------+
+| GC_HEADER_DIM_2015_Q4 | BASE TABLE |
+| GC_HEADER_DIM_2016_Q1 | BASE TABLE |
+| GC_HEADER_DIM_2016_Q2 | BASE TABLE |
+| GC_HEADER_DIM_2016_Q3 | BASE TABLE |
+| GC_HEADER_DIM_2016_Q4 | BASE TABLE |
+| GC_HEADER_DIM_2017_Q1 | BASE TABLE |
+| GC_HEADER_DIM_2017_Q2 | BASE TABLE |
+| GC_HEADER_DIM_2017_Q3 | BASE TABLE |
+| GC_HEADER_DIM_2017_Q4 | BASE TABLE |
+| GC_HEADER_DIM_2018_Q1 | BASE TABLE |
+| GC_HEADER_DIM_2018_Q2 | BASE TABLE |
+| GC_HEADER_DIM_2018_Q3 | BASE TABLE |
+| GC_HEADER_DIM_2018_Q4 | BASE TABLE |
+| GC_HEADER_DIM_2019_Q1 | BASE TABLE |
+| GC_HEADER_DIM_2019_Q2 | BASE TABLE |
+| GC_HEADER_DIM_2019_Q3 | BASE TABLE |
+| GC_HEADER_DIM_2019_Q4 | BASE TABLE |
+| GC_HEADER_DIM_2020_Q1 | BASE TABLE |
+| GC_HEADER_DIM_2020_Q2 | BASE TABLE |
+| test_occasion         | BASE TABLE |
++-----------------------+------------+
+```
+
 To learn more about creating view tables, check [this](https://www.mysqltutorial.org/create-sql-views-mysql.aspx) out.
