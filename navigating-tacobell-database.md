@@ -78,12 +78,78 @@ MariaDB [tacobell]> select * from OCCASION_DIM;
 +-------------+------------+--------------+*/
 ```
 #### PRODUCT_DIM (and PRODUCT_DETAIL_DIM_V1 and PRODUCT_MODIFICATION_DIM_V1)
+This table contains food and beverage items in the database.
+The primary key is DW_PRODUCT.
+Each item has a brief description.
+Note that the description is not unique to the DW_PRODUCT key.
+See the example below.
+```sql
+MariaDB [tacobell]> select DW_PRODUCT,PRODUCTDESC from PRODUCT_DIM where PRODUCTDESC='MEDIUM PEPSI';
+/*+------------+--------------+
+| DW_PRODUCT | PRODUCTDESC  |
++------------+--------------+
+|       3648 | MEDIUM PEPSI |
+|       3139 | MEDIUM PEPSI |
++------------+--------------+*/
+```
+Tables PRODUCT_DETAIL_DIM_V1 and PRODUCT_MODIFICATION_DIM_V1 have the same content as PRODUCT_DIM, with the difference in column names.
+This is important to note because it directly relates to how calories are aggreagted for combo meals and food items with ingredient modifications.
+See the section on TLD_FACT tables for more information.
+
 #### PRODUCT_GROUP_DET (and PRODUCT_GROUP_DETAIL_DET_V1 and PRODUCT_GROUP_MOD_DET_V1)
-#### TIME_DAYPART_DET 
-#### TIME_DAY_DIM
-#### TIME_MINUTE_DIM
+Similar to PRODUCT_DIM table, each DW_PRODUCTGROUP has a brief textual description.
+It's unclear how the product groups are defined, as many of them are not mutually exclusive.
+For our purposes, all beverages are listed in groups 15 (smoothies), 16 (drinks) and 17 (packaged dri).
+
+#### TIME_DAYPART_DET
+Taco Bell's [daypart](https://en.wikipedia.org/wiki/Dayparting) for meal time.
+```sql
+MariaDB [tacobell]> select * from TIME_DAYPART_DET order by DW_DAYPART;
+/*+------------+----------------+-------------+--------------+--------------+
+| DW_DAYPART | DW_CURRENTFLAG | DAYPARTNAME | DAYPARTBGNTM | DAYPARTENDTM |
++------------+----------------+-------------+--------------+--------------+
+|          1 |                | LATE NIGHT  | 00:00        | 03:59        |
+|          2 |                | BREAKFAST   | 04:00        | 10:59        |
+|          3 |                | LUNCH       | 11:00        | 13:59        |
+|          4 |                | AFTERNOON   | 14:00        | 16:59        |
+|          5 |                | DINNER      | 17:00        | 20:59        |
+|          6 |                | EVENING     | 21:00        | 23:59        |
++------------+----------------+-------------+--------------+--------------+*/
+```
+
+#### TIME_DAY_DIM and TIME_MINUTE_DIM
+These two tables are mostly used to connect DW_YEAR and DW_MONTH to human readable year and month.
+Users can also use the TIME_MINUTE_DIM table to join with the TIME_DAYPART_DET table.
+
 #### nutrition
+This table is uploaded by us, which links food and beverage products to calorie information.
+Of the items in the PRODUCT_DIM table, 3,515 unique items were examined.
+(The others were not researched for various reasons. E.g. they were items from non-Taco Bell brands, they were not food items, etc.)
+
+We were able to find calorie information on 741 items, which covers more than 95% of the sales from quarter to quarter.
+Note that the carbohydrates and sugar information are likely inaccurate for non-typical sized beverages (i.e. outside of the typical small, medium and large sizes), as their records were sometimes imputed from different sized beverages.
+
+Most of the time, to join nutrition information to transaction tables, use ```nutrition_view``` which excludes all items without calorie information.
+
 #### product_category
+This table is uploaded by us, which puts food and beverage items into 
+```sql
+MariaDB [tacobell]> select DW_CATEGORY, CATEGORY from product_category group by DW_CATEGORY order by DW_CATEGORY;
+/*+-------------+--------------+
+| DW_CATEGORY | CATEGORY     |
++-------------+--------------+
+|           1 | beverage     |
+|           2 | burrito      |
+|           3 | dessert      |
+|           4 | other_entree |
+|           5 | salad        |
+|           6 | side         |
+|           7 | substitution |
+|           8 | taco         |
+|           9 | other        |
++-------------+--------------+*/
+9 rows in set (0.03 sec)
+```
 ### Transaction tables
 #### GC_HEADER_DIM tables
 #### TLD_FACT tables
