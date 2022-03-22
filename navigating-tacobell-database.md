@@ -120,6 +120,8 @@ MariaDB [tacobell]> select * from TIME_DAYPART_DET order by DW_DAYPART;
 #### TIME_DAY_DIM and TIME_MINUTE_DIM
 These two tables are mostly used to connect DW_YEAR and DW_MONTH to human readable year and month.
 Users can also use the TIME_MINUTE_DIM table to join with the TIME_DAYPART_DET table.
+```DW_DAY``` and ```DW_MINUTE``` are the primary keys, respectively.
+The column we use most often is ```DW_MONTH``` in the ```TIME_DAY_DIM``` table, which can be translated to calendar year and month by referring to the ```YEARNO``` and ```MONTHNAME``` columns.
 
 #### nutrition
 This table is uploaded by us, which links food and beverage products to calorie information.
@@ -132,7 +134,9 @@ Note that the carbohydrates and sugar information are likely inaccurate for non-
 Most of the time, to join nutrition information to transaction tables, use ```nutrition_view``` which excludes all items without calorie information.
 
 #### product_category
-This table is uploaded by us, which puts food and beverage items into 
+This table is uploaded by us, which puts food and beverage items into mutually exclusively categories.
+Note that the categories are defined through key word searches, and therefore not entirely sophisticated.
+All categories are listed as below.
 ```sql
 MariaDB [tacobell]> select DW_CATEGORY, CATEGORY from product_category group by DW_CATEGORY order by DW_CATEGORY;
 /*+-------------+--------------+
@@ -148,18 +152,78 @@ MariaDB [tacobell]> select DW_CATEGORY, CATEGORY from product_category group by 
 |           8 | taco         |
 |           9 | other        |
 +-------------+--------------+*/
-9 rows in set (0.03 sec)
 ```
+The specific code used to categorize is as below.
+```product$group``` refers to the ```PRODUCTGROUPDESC``` in ```PRODUCT_GROUP_DET``` table.
+```product$full``` refers to the ```FULLDESC``` column in the ```nutrition``` table. 
+```R
+product$category <- ifelse(product$group=="SALADS","salad",
+                           ifelse(grepl("CHALUPAS|GORDITAS|TACO|TOSTADA",product$group)|grepl("CHALUPA|GORDITA|TACO|TOSTADA|ENCHILADA|TAQUITO",product$full),"taco",
+                           ifelse(grepl("BURRITO|ENCHIRITOS",product$group)|grepl("BURRITO|ENCHIRITO",product$full),"burrito",
+                           ifelse(grepl("CINNABON PRODUCTS|DESSERTS",product$group)|grepl("CINNABON|CINNABITES|APPLE EMPANADA",product$full),"dessert",
+                           ifelse(grepl("DRINKS|SMOOTHIE",product$group)|grepl("PEPSI|DIET|SMOOTHIE|SHAKE",product$full),"beverage",
+                           ifelse(grepl("NACHOS|BURGERS|TORTAS",product$group)|grepl("NACHO|BURGER|TORTA|PIZZA|CHICKEN|BEEF|STEAK|QUESADILLA|MEXIMELT|CRUNCHWRAP",product$full),"other_entree",
+                           ifelse(grepl("EXTRA/MINU",product$group)|grepl("SUB ",product$full),"substitution",
+                           ifelse(grepl("SIDES|FRIES",product$group)|grepl("FRIES|FRY",product$full),"side","other"))))))))
+```
+
 ### Transaction tables
+There are two main transaction tables in the database, ```GC_HEADER``` and ```TLD_FACT```.
+Both types of tables are recorded in a quarterly fashion, with year and quarter suffices in the table names.
 #### GC_HEADER_DIM tables
+For each ```GC_HEADER``` table, ```DW_GC_HEADER``` is the primary key.
+It provides transaction level metadata, such as the day/time of purchase, the restaurant, order type, total amount paid, wwhether there was a discount, etc.
 #### TLD_FACT tables
-- DW_GC_HEADER is no longer a unique primary key
+```TLD_FACT``` tables provide a receipt level transaction record, where all information on a receipt is available.
+It is worth noting the distinctions between columns ```DW_PRODUCT```, ```DW_PRODUCTDETAIL```, and ```DW_PRODUCTMOD``` and how that relates to combo meals.
+
+For example, all items under a combo meals will have the same ```DW_PRODUCT```, while the ```DW_PRODUCTDETAIL``` column records what was actually ordered.
+In the example below, we can see a customer ordered a "COMBO 6" meal, which consisted of 2 chalupa supreme beef, 1 crunchy taco beef and 1 large Pepsi.
+
+As such, ```DW_GC_HEADER``` is no longer a unique identifier for the rows recorded in ```TLD_FACT``` tables.
+Rather, the combination of ```DW_GC_HEADER``` and ```DW_LINEITEM``` is.
+
+```SQL
+MariaDB [tacobell]> select t.DW_GC_HEADER, d.BUSIDAYDT, t.DW_PRODUCT, p.PRODUCTDESC as product, t.DW_PRODUCTDETAIL, detail.PRODUCTDESC as detail, t.DW_PRODUCTMOD, m.PRODUCTDESC as modification, t.DW_LINEITEM, l.LINEITEMDESC, t.ACTQTYSOLD, t.ACTPRODPRICE
+    -> from TLD_FACT_2007_Q02 t
+    -> left join LINEITEM_DIM l using (DW_LINEITEM)
+    -> left join PRODUCT_DIM p using (DW_PRODUCT)
+    -> left join TIME_DAY_DIM d using (DW_DAY)
+    -> left join PRODUCT_MODIFICATION_DIM_V1 m using (DW_PRODUCTMOD)
+    -> left join PRODUCT_DETAIL_DIM_V1 detail using (DW_PRODUCTDETAIL)
+    -> where DW_GC_HEADER= 2268457947
+    -> order by DW_LINEITEM; 
+/*+--------------+------------+------------+---------+------------------+----------------------+---------------+--------------+-------------+--------------+------------+--------------+
+| DW_GC_HEADER | BUSIDAYDT  | DW_PRODUCT | product | DW_PRODUCTDETAIL | detail               | DW_PRODUCTMOD | modification | DW_LINEITEM | LINEITEMDESC | ACTQTYSOLD | ACTPRODPRICE |
++--------------+------------+------------+---------+------------------+----------------------+---------------+--------------+-------------+--------------+------------+--------------+
+|   2268457947 | 2007-03-21 |       1691 | COMBO 6 |             1691 | COMBO 6              |            -1 | N/A          |           1 | COMBO-ITEM   |       1.00 |         4.49 |
+|   2268457947 | 2007-03-21 |       1691 | COMBO 6 |             1133 | CHALUPA SUPREME BEEF |            -1 | N/A          |           3 | COMBO-DETAIL |       1.00 |         0.00 |
+|   2268457947 | 2007-03-21 |       1691 | COMBO 6 |             3649 | LARGE PEPSI          |            -1 | N/A          |           3 | COMBO-DETAIL |       1.00 |         0.00 |
+|   2268457947 | 2007-03-21 |       1691 | COMBO 6 |             4450 | CRUNCHY TACO BEEF    |            -1 | N/A          |           3 | COMBO-DETAIL |       1.00 |         0.00 |
+|   2268457947 | 2007-03-21 |       1691 | COMBO 6 |             1133 | CHALUPA SUPREME BEEF |            -1 | N/A          |           3 | COMBO-DETAIL |       1.00 |         0.00 |
+|   2268457947 | 2007-03-21 |         -1 | N/A     |               -1 | N/A                  |            -1 | N/A          |          14 | TAX-LINE     |       0.00 |         0.00 |
++--------------+------------+------------+---------+------------------+----------------------+---------------+--------------+-------------+--------------+------------+--------------+*/
+```
+
 ## Notable quirks
 ### TLD_FACT_2007_Q01 has duplicate data
 For reasons not clear to us, every row in the the TLD_FACT_2007_Q01 table (and only this table) seems to have a duplicate.
 When you aggregate data from this table, e.g. total calories, you would need to divide everything by 2, except the number of transactions, which you can do by ```count(distinct DW_GC_HEADER)```
-#### GC_HEADER_DIM, TLD_FACT and TLD_TEST are test tables
+### GC_HEADER_DIM, TLD_FACT and TLD_TEST are test tables
 They should not be used in queries.
 ### Duplicate tables in product, product detail and product modification
+```PRODUCT_DIM```, ```PRODUCT_DETAIL_DIM_V1``` and ```PRODUCT_MODIFICATION_DIM_V1``` are essentially identicable tables in the rows.
+The differences are in the column names.
+Typically, you would expect product modifications to ordered items to be limited to a much smaller number of possibilities (e.g. cheese, lettuce, tomato, etc).
+For reasons unclear to us, the database is structured in a way that technically allows any food items to be a *modification* to an existing order.
+Such a scenario doesn't happen, but it's worth noting of the possibility.
 ### A slight mismatch between fiscal month and calendar month
+The year and quarter suffices in the transaction tables are based on fiscal years and quarters, which typically starts approx. a week before the calendar year and quarter.
+For example, fiscal year 2007 starts arond Christmas time in 2006.
+Because of this discrepancy, always check whether your aggregated data at the restaurant-month level has duplicate observations for any given month.
+If so, you would need to aggregate those rows to get the ```sum()``` first.
 ### 4th quarter has 16 weeks
+This is not usually a problem, since most of our analyses are at the month level.
+However, if you need to look at quarterly trends by simply aggregating a column from the quarterly transaction tables, be aware that Q4 has 16 weeks, while the other three quarters have 12 weeks.
+This means most measures, e.g. total number of orders, for Q4 is artifically inflated.
+User should standardized the outcomes to a weekly or monthly level before examining quarterly trends.
