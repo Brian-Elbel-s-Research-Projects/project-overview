@@ -1,4 +1,4 @@
-Some of the quirks in the database.
+A quick overview of the database. These [sides](https://github.com/Brian-Elbel-s-Research-Projects/project-overview/files/8135522/getting-to-know-tacobell-data.pdf) also have relevant information as a quick start if you don't want to read through the texts below, just be aware that some metadata information may be outdated.
 
 ## Database structure
 The database has a *star* structure, where a central fact table (or in our case, a series of central tables, by fiscal quarters) can be linked to many reference tables (or dimension tables).
