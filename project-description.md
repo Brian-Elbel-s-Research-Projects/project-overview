@@ -18,6 +18,8 @@ Our specific aims are:
 -	Aim 2: Determine the extent to which the impact of labeling differs by characteristics of the community, including a) demographics of the community (income and race/ethnicity), and b) urbanicity of the restaurant location.
 -	Aim 3: Determine the extent to which the impact of labeling differs by characteristics of the purchase, including a) time of day, b) weekend or weekday, and c) drive through or ordered in the restaurant.
 
+You can find additional information [here](https://github.com/Brian-Elbel-s-Research-Projects/project-overview/files/8135512/menu-labeling-overview.pdf).
+
 ## Soda tax
 This project will examine the impact of taxes on sugar sweetened beverages (SSBs) utilizing detailed sales data from one of the largest fast food retailers in the U.S. 
 Taxes on SSBs are one of the most promising solutions to reduce population-wide consumption of these unhealthful beverages and, consequently, their contribution to obesity and the health challenges of cardiovascular disease, diabetes and cancer. 
@@ -56,6 +58,8 @@ The specific aims are:
 -	Aim 1: With a focus on disparities, determine health and education changes among children 2-4 years after pandemic onset compared to pre-pandemic using a new, comprehensive and powerful set of linked child-level administrative data.
 -	Aim 2: Determine how child-level, school-level and neighborhood-level COVID vaccination rates influence the course of the COVID pandemic, with a focus on disparities.
 -	Aim 3: Determine the role of neighborhood and school resources in exacerbating or mitigating health and educational disparities due to the COVID pandemic.
+
+You can find additional information [here](https://github.com/Brian-Elbel-s-Research-Projects/project-overview/files/8135507/covid-sphr-overview.pdf).
 
 ## Food/built environment
 The last several years have witnessed growing interest in the potential contribution of the “built environment” to the epidemic increase in obesity rates in the United States. 
