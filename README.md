@@ -8,7 +8,7 @@ A summary of current and past research projects in Elbel lab
 |National roll-out|Impact of menu labeling post national roll-out|Erilia||
 |[Menu labeling on in-store transactions](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-in-store-transactions)|In-store orders only, treatment sites before national roll-out|Emil||
 |Menu labeling in California|Compare in-store (treatment) and drive-through orders (comparison)|Kriti||
-|Legislation vs. implementation|Compare sites that passed the law (never implemented) and the ones that implemented|Pedro||
+|[Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation)|Compare sites that passed the law (never implemented) and the ones that implemented|Pedro||
 |[Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics)|Examine calorie purchase by demographic characteristics in communities surrounding the restaurants|Lloyd||
 |~~Analysis by purchase characteristics~~|~~Examine calorie by purchase characteristics, such as time of day, day of the week, etc~~|Combine with [Impact of menu labeling on calories purchased](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)||
 
