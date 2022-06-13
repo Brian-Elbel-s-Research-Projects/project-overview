@@ -78,7 +78,7 @@ print("RMySQL loaded")
 
 tb <- dbConnect(drv = RMySQL::MySQL(), dbname="tacobell",
                 username="wue04", password="",
-                host="db", port=33061)
+                host="db", port=33080)
 print("database connected")
 
 print("mean calories")
