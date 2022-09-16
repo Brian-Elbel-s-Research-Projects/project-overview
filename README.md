@@ -24,7 +24,8 @@ A summary of current and past research projects in Elbel lab
 ## COVID/SPHR
 | Project      | Summary | Analyst |Published Paper |
 | ----------- | ----------- |----------- |----------- |
-|[Vaccine uptake (best predictors)](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors)||||
+|[Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors)|Best predictors for student level vaccination rate, by race/ethnicity and gender|Lloyd||
+|Vaccine uptake - schools|The association between school level COVID vaccination rate and race and ethnicity|Eric|[Analysis of School-Level Vaccination Rates by Race, Ethnicity, and Geography in New York City](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2796283)|
 
 ## Healthy neighborhood
 | Project      | Summary | Analyst |Published Paper |
