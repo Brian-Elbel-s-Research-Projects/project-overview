@@ -11,6 +11,7 @@ A summary of current and past research projects in Elbel lab
 |[Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation)|Compare sites that passed the law (never implemented) and the ones that implemented|Pedro||
 |[Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics)|Examine calorie purchase by demographic characteristics in communities surrounding the restaurants|Lloyd||
 |~~Analysis by purchase characteristics~~|~~Examine calorie by purchase characteristics, such as time of day, day of the week, etc~~|Combine with [Impact of menu labeling on calories purchased](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)||
+|[by-Location Analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) |Decomposition of Instore+drivethrough analysis by the 6 constituent analyses|Emil||
 
 ## Soda tax
 | Project      | Summary | Analyst |Published Paper |
