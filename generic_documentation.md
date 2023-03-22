@@ -97,6 +97,7 @@ palette = c("#007fff", #azure
   - Similarly images can be produced and saved, with slightly different commands.
   - Procedure: 
     - Define an export path just by specifying the string e.g. table_shells <- "the_file_path_to_the_destination_shells", load the Excel workbook with `wb = loadWorkbook("the_file_path")`, save the object with `insertImage()` or `writeData()` referring to the wb object, then save the workbook edits with `saveWorkbook()`
+
 **- how did is estimated**
   -  A subset of the data is selected based on the matching identifier and the matching place. 
   - The relative2.factor variable is used as a categorical covariate, and the reference category is set to "-3".
@@ -105,8 +106,11 @@ palette = c("#007fff", #azure
   - The DiD estimator is computed by calculating the difference in the mean changes in average calories purchased between the treated and control groups before and after the treatment. Separately for the first versus the second year, a treatment and a comparison object is made: the pre-treatment coefficient is the mean of the monthly coefficients from -8 to -3 and the post-treatment coefficient is the mean of the monthly coefficients after implementation (3 to 12 for first year, 13 to 24 for second year). The difference between them gives the difference between pre- and post-treatment. The equivalent is conducted for the pre- and post-control values and the difference taken between these two processes gives the DiD. 
 **- robustness checks**
   - We run some combination of open time, different baseline, macronutrient, daypart/time of day, new menu item, top selling items, overall quantity of sales and per-food-item-category quantity of sales follow-up analyses
+
 **- group == 2 for orangey liney**
+
 **- trend**
+
 **- matching**
   - We use a 5:1 mahalanobis matching with replacement as pre-processing to trim the pool of potential matches, followed by a 3:1 without replacement cbps match to finalize the dataset. This is conducted only for the California dataset since the smaller locations (with n=1, n=3, and one n=16) are not expected to produce effect matching. Synthetic Controls for California are scheduled to be tested, as of 3/22/23, so the Mahalanobis+CBPS approach is being phased out.
 
