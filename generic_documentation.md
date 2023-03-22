@@ -68,15 +68,53 @@
 
 ## Code, processes
 - standardize color scheme
+
+  - Borne from a now closed team issue [link](https://github.com/Brian-Elbel-s-Research-Projects/project-overview/issues/61), Lloyd developed a custom color scheme for the team to use across projects and scripts, [linked here](https://nyulangone-my.sharepoint.com/personal/lloyd_heng_nyulangone_org/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flloyd%5Fheng%5Fnyulangone%5Forg%2FDocuments%2Fcolors%2Ehtml&parent=%2Fpersonal%2Flloyd%5Fheng%5Fnyulangone%5Forg%2FDocuments&ga=1). We use the L color scheme at the bottom, copied here
+ 
+ ```
+palette = c("#007fff", #azure
+            "#00dea4", #asda green
+            "#ff2052", #awesome red
+            "#fbec5d", #buff mustard
+            "#ffc1cc", #bubble gum
+            "#ffb95a", #cape jasmine orange
+            "#141414") #chinese black
+```
+
 - felm with robust s.e.
+  - plm() does not produce a robust variance-covariance matrix nor robust standard errors, and a basic heteroskedasticity test reveals a problem with several menu labeling analyses that likely affect other projects as well. Therefore, we switched from plm() estimation of the DiD to felm() using the same design; this required some testing and troubleshooting, but the point estimates are identical, and the SEs enlarge as expected. What follows is detail on the transition.
+  - If you're doing something like `calories = treat*relative + factor(month)` with restaurant fixed effects as an specified index, it is likely that you will get a NaN for the treatment variable in felm(), which will continue to work for any tidy() procedures but break in a forloop for significance testing, e.g. using `linearHypothesis` against the `presum`. 
+  - Lloyd's solution to that problem was to drop the `+ factor(month)` and specify the `regression_index` as a factor in the model instead. The point estimates are still identical to previously.
+  - Another problem that you may run into is incorporating the weights; the felm() argument wasn't able to locate the data object's weights itself even though the data is specified in the options — to get around this, i just supply the object and its weight(s) — aka something like weight = the_data$weight2.
+    - This may also throw a length error — if you shorten the data with a filter within the `data = ` argument, it will be shorter than the data supplied in the `weights = ` argument. I got around this by just filtering the whole object before feeding it into the felm(). 
+  - You may also need to adjust your tidying on the mod.factor object; see below. I clean out the treatment coefficient itself, and the intercept (as it was appearing in some iterations of my testing various model specifications when I couldn't get this all to work). Make sure you specify se.type in the tidy(mod.factor) command, I think.
+  - To be thorough I replace not only the first index in the coefficient list but also the beta list within mod.factor and the first row&column in the vcv matrix.
+  - We've also adjusted the indexing on the hypothesis testing loop, detailed in an issue [here](https://github.com/Brian-Elbel-s-Research-Projects/project-overview/issues/78)
+  -  after implementing felm() be sure to include the tidy() options it gets used in the standard error computations, as so: `tidy(mod.factor,conf.level = 0.95,conf.int = TRUE, se.type = "robust")`.
+  -  examples can be found in the by-location analyses and intra-california analysis as of 3/22/23 time of writing.
+
 - write objects to excel directly
+  - Examples can be found in the by-location analyses and intra-california analysis as of 3/22/23 time of writing. 
+  - Essentially, create the object/image to be written directly. 
+  - Then, data objects can be used to fill in charts by specifying the object and the target location (sheet, row, column of starting) and by pre-formatting the object so it fills in the Excel sheet properly. Note that Excel formatting decisions (e.g. on data type = number, or general, or date) will be kept. 
+  - Similarly images can be produced and saved, with slightly different commands.
+  - Procedure: 
+    - Define an export path just by specifying the string e.g. table_shells <- "the_file_path_to_the_destination_shells", load the Excel workbook with `wb = loadWorkbook("the_file_path")`, save the object with `insertImage()` or `writeData()` referring to the wb object, then save the workbook edits with `saveWorkbook()`
 - how did is estimated
 - robustness checks
+  - We run some combination of open time, different baseline, macronutrient, daypart/time of day, new menu item, top selling items, overall quantity of sales and per-food-item-category quantity of sales follow-up analyses.
+  - A subset of the data is selected based on the matching identifier and the matching place. 
+  - The relative2.factor variable is used as a categorical covariate, and the reference category is set to "-3".
+  - A fixed-effects linear regression model is fitted to the data, with e.g. calorie as the dependent variable, and treat and relative2.factor as independent variables. The weights are the product of the two weight variables.
+  - The estimated coefficients and their standard errors are extracted from the model, and a table is created. The table includes the coefficient estimate, p-value, and confidence interval for each covariate in the model. The table is filtered to exclude the reference categories, the intercept, and the treat variable. The table is also modified to include rows with zeros for the "-3" level of the relative2.factor variable. This is the beginning of wash-out. Values are measured with respect to this reference month, so monthly point estimates refer to the deviation in average calories purchased (for that month-treatment_group) from month -3. 
+  - The DiD estimator is computed by calculating the difference in the mean changes in average calories purchased between the treated and control groups before and after the treatment. Separately for the first versus the second year, a treatment and a comparison object is made: the pre-treatment coefficient is the mean of the monthly coefficients from -8 to -3 and the post-treatment coefficient is the mean of the monthly coefficients after implementation (3 to 12 for first year, 13 to 24 for second year). The difference between them gives the difference between pre- and post-treatment. The equivalent is conducted for the pre- and post-control values and the difference taken between these two processes gives the DiD. 
+
 - group == 2 for orangey liney
 - trend
-- colors
 - matching
+  - We use a 5:1 mahalanobis matching with replacement as pre-processing to trim the pool of potential matches, followed by a 3:1 without replacement cbps match to finalize the dataset. This is conducted only for the California dataset since the smaller locations (with n=1, n=3, and one n=16) are not expected to produce effect matching. Synthetic Controls for California are scheduled to be tested, as of 3/22/23, so the Mahalanobis+CBPS approach is being phased out.
 
 ## Miscellaneous
 - mounting g drive
+  - For security, rather than posting the location, it can be retrieved [here](https://nyulangone-my.sharepoint.com/:u:/g/personal/emil_hafeez_nyulangone_org/ETT_Bhn7evhDvgd81eYG3w4BM7Y_pCPfBvUL2a82l7VOXg?e=pvjQEb)
 - standard checks when loading in a dataset
