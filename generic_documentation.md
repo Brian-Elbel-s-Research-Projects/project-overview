@@ -108,8 +108,11 @@ palette = c("#007fff", #azure
   - We run some combination of open time, different baseline, macronutrient, daypart/time of day, new menu item, top selling items, overall quantity of sales and per-food-item-category quantity of sales follow-up analyses
 
 **- group == 2 for orangey liney**
+  - be sure to incorporate a clear delineation for the difference in pre and post values in the trend object so that they can be plotted correctly; this can be accomplished by assigning the pre-post differenced values their own group (and group==0 and group==1 are already used, so this can be done with group==2).
 
 **- trend**
+  - This is part of the chunk for creating DID plots; the trend object is initialized as an empty object, then the DiD analysis is conducted. The tmp1, tmp2, and tmp objects are used to hold the (baseline and endline separately) point estimates of the monthly average calorie changes differenced from the reference month; the tmp1 and tmp2 objects are combined into a single object which contains the pre mean, post mean, and their difference; this is then significance tested in a forloop using the tmp object; the p values in tmp are merged onto the respective tmp1 object months
+
 
 **- matching**
   - We use a 5:1 mahalanobis matching with replacement as pre-processing to trim the pool of potential matches, followed by a 3:1 without replacement cbps match to finalize the dataset. This is conducted only for the California dataset since the smaller locations (with n=1, n=3, and one n=16) are not expected to produce effect matching. Synthetic Controls for California are scheduled to be tested, as of 3/22/23, so the Mahalanobis+CBPS approach is being phased out.
