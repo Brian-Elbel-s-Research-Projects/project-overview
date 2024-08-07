@@ -43,3 +43,12 @@ A summary of current and past research projects in Elbel lab
 |[FRESH](https://github.com/jeremysze/Dustin_parks)|Impact of FRESH supermarket on childhood obesity of students living nearby|Jeremy|[Association Between a Policy to Subsidize Supermarkets in Underserved Areas and Childhood Obesity Risk](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2792042)|
 |Gentrification and childhood obesity|The impact of neighborhood gentrification on childhood obesity and zBMI|Eric||
 |Access to public parks and childhood obesity|The impact of public park access (by type) on student obesity/zBMI|||
+
+## HPC Administrative Note
+To resume an HPC session in which an interaction RStudio session is running, a new credentialling system has been implemented. In order to re-authenticate the session:
+
+1 Go to "My Interactive Sessions" tab
+2 Click the long hexadecimal string for Session ID for your job
+3 Find the file called connection.yml and open it. You'll find the password for your session in that file. Your username will be your regular kerberos ID
+4 Enter the username and password in to RStudio. You'll be taken to a new page with a message. Once you get to that page, simply delete the last part of the URL in the address bar. It will say "AppUri?" or something similar.
+ 
