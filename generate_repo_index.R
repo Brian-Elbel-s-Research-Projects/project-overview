@@ -1,5 +1,5 @@
 # Install necessary packages if you haven't already
-# install.packages(c("httr", "jsonlite", "stringr")) # Run manually if needed
+install.packages(c("httr", "jsonlite", "stringr")) # Run manually if needed
 
 library(httr)
 library(jsonlite)
