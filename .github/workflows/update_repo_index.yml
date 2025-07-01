@@ -40,7 +40,7 @@ jobs:
           echo "Recursive file listing from root:"
           ls -R
           echo "--- Attempting to run R script ---"
-          Rscript project-overview/generate_repo_index.R
+          Rscript generate_repo_index.R
         env:
           # Pass the GITHUB_PAT from secrets to the R script as an environment variable
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
