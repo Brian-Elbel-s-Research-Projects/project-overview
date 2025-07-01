@@ -39,9 +39,6 @@ jobs:
           pwd
           echo "Files in current directory (root of your repo):"
           ls -F
-          # This will still error, but confirms it's not a subdir (can be removed later)
-          echo "Contents of 'project-overview' directory:"
-          ls -F project-overview/
           echo "Recursive file listing from root:"
           ls -R
           echo "--- Attempting to run R script ---"
