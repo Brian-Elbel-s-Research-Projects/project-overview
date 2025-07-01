@@ -16,14 +16,7 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and overall elsewhere. | Lloyd, Emil | **Completed** | Data Analysis Script | N/A |
 | [National roll-out](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout) | Impact of menu labeling post national roll-out, interrupted time series. | Emil | **Active** | Analysis Scripts, Preliminary Findings Report | Data cleaning and preliminary analysis |
-| [Menu labeling in California](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML) | Compare in-store (treatment) and drive-through orders (comparison). | Kriti, Lloyd | **Active** | Data Aggregation, Initial Statistical Models | Data validation and statistical modeling |
-| [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | **Active** | Literature Review, Data Collection Plan | Policy data collection and initial data linkage |
-| [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | **Active** | Geospatial Analysis Plan, Demographic Data Integration | Refine demographic data sources and merge with purchase data |
-| [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of Instore+drivethrough analysis by the 6 constituent analyses. | Emil | **Active** | Disaggregated Analysis Reports | Validate disaggregated findings against main analysis |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
 
 ### Soda Tax
 
@@ -33,13 +26,27 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 | [Calorie change](https://github.com/Brian-Elbel-s-Research-Projects/soda_tax_calorie_change) | Aim 2: change in calories ordered as a result of soda tax. | Erilia | **Active** | Calorie Change Analysis | Regression analysis and robustness checks |
 | Analysis by community characteristics | Examine the impact of soda tax on purchases by demographic characteristics in surrounding communities. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** |
 
-### COVID/SPHR
+### COVID/SPHR Core/Initiative
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
 | [Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors) | Descriptive disparities in vaccine uptake among NYC students. | Lloyd | **Completed** | Statistical Analysis Code | N/A |
 | Vaccine uptake - schools | The association between school-level COVID vaccination rate and race and ethnicity. | Eric | **Completed** | Data Visualization | N/A |
 | [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Codebooks for COVID/SPHR related datasets. | **LOREM IPSEM ANALYST** | **Completed** | Data Documentation | N/A |
+
+### Diabetes
+
+| Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
+|---|---|---|---|---|---|
+| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | LOREM IPSEM ANALYST A | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
+| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | LOREM IPSEM ANALYST B | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
+
+### Social Media
+
+| Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
+|---|---|---|---|---|---|
+| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | LOREM IPSEM ANALYST A | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
+| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | LOREM IPSEM ANALYST B | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
 
 ### Yondr
 
@@ -54,12 +61,17 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 
 This section lists projects that have been completed, merged into other projects, or are no longer actively maintained. When a project is finished or integrated elsewhere, please move its entry from the "Current Research Projects" section to here.
 
-### Menu Labeling Projects
+### Menu Labeling (Archived)
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
 | Menu labeling in-store transactions | In-store orders only, treatment sites before national roll-out. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one)". | LOREM IPSEM ANALYST | Merged | LOREM IPSEM DELIVERABLES | N/A |
 | Analysis by purchase characteristics | Examine calorie by purchase characteristics, such as time of day, day of the week, etc. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)". | LOREM IPSEM ANALYST | Merged | LOREM IPSEM DELIVERABLES | N/A |
+| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and overall elsewhere. | Lloyd, Emil | **Completed** | Data Analysis Script | N/A |
+| [Menu labeling in California](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML) | Compare in-store (treatment) and drive-through orders (comparison). | Kriti, Lloyd | **Active** | Data Aggregation, Initial Statistical Models | Data validation and statistical modeling |
+| [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | **Active** | Literature Review, Data Collection Plan | Policy data collection and initial data linkage |
+| [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | **Active** | Geospatial Analysis Plan, Demographic Data Integration | Refine demographic data sources and merge with purchase data |
+| [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of Instore+drivethrough analysis by the 6 constituent analyses. | Emil | **Active** | Disaggregated Analysis Reports | Validate disaggregated findings against main analysis |
 
 ### Healthy Neighborhood (Archived)
 
@@ -80,8 +92,9 @@ This section lists projects that have been completed, merged into other projects
 | Gentrification and childhood obesity | The impact of neighborhood gentrification on childhood obesity and zBMI. | Eric | **Active** | Data Linkage, Preliminary Statistical Analysis | Refine gentrification metrics and conduct multivariate analysis |
 | Access to public parks and childhood obesity | The impact of public park access (by type) on student obesity/zBMI. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** |
 
-## Soda Tax
-
+## Soda Tax (Archived)
+| Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
+|---|---|---|---|---|---|
 | [Construct new tacobell database](https://github.com/Brian-Elbel-s-Research-Projects/construct-tacobell2) | Putting together new database, 2015-2020. | Erilia | **Completed** | Cleaned Dataset, Data Dictionary | N/A |
 | [Tacobell2 Codebook](https://github.com/Brian-Elbel-s-Research-Projects/tb2codebook) | Codebook with information on data available in tacobell2 database. | Kriti | **Completed** | Comprehensive Codebook | N/A |
 
@@ -98,12 +111,25 @@ This section is for new or ongoing projects that don't fit into the existing cat
 
 ---
 
+## HPC Access and Usage
+
+This section provides crucial administrative notes for accessing and resuming sessions on our High-Performance Computing (HPC) cluster. Please follow these steps carefully to re-authenticate your RStudio sessions. For any technical issues beyond these instructions, please reach out to **[Designated HPC Support Person/Team Contact Info, e.g., hpc-support@example.edu]**.
+
+To resume an HPC session in which an interactive RStudio session is running, a new credentialing system has been implemented. In order to re-authenticate the session:
+
+1.  Go to "My Interactive Sessions" tab.
+2.  Click the long hexadecimal string for Session ID for your job.
+3.  Find the file called `connection.yml` and open it. You'll find the password for your session in that file. Your username will be your regular Kerberos ID.
+4.  Enter the username and password into RStudio. You'll be taken to a new page with a message. Once you get to that page, simply delete the last part of the URL in the address bar. It will say "AppUri?" or something similar.
+
+---
+
 ## Project Management & Collaboration
 
 Effective project management is key to our research efficiency. We leverage GitHub's Projects feature to track tasks, manage workflows, and collaborate across various initiatives.
 
 ### Main Project Board
-Our primary project board for the lab's ongoing work and overall task management can be found here:
+Emil's primary project board for the lab's ongoing work and overall task management can be found here:
 **[Elbel Lab Projects Dashboard](https://github.com/orgs/Brian-Elbel-s-Research-Projects/projects/8/views/1)**
 
 This board provides an overview of current tasks, their status, assigned members, and allows us to visualize our progress.
@@ -121,19 +147,6 @@ Individual projects or sub-teams may benefit from their own dedicated project bo
 8.  **Link to Repositories (Optional but Recommended):** You can link specific repositories to your project, allowing you to easily track issues and pull requests from those repos directly on your board.
 
 Remember to regularly update your project board to keep it a useful tool for tracking progress and identifying blockers.
-
----
-
-## HPC Access and Usage
-
-This section provides crucial administrative notes for accessing and resuming sessions on our High-Performance Computing (HPC) cluster. Please follow these steps carefully to re-authenticate your RStudio sessions. For any technical issues beyond these instructions, please reach out to **[Designated HPC Support Person/Team Contact Info, e.g., hpc-support@example.edu]**.
-
-To resume an HPC session in which an interactive RStudio session is running, a new credentialing system has been implemented. In order to re-authenticate the session:
-
-1.  Go to "My Interactive Sessions" tab.
-2.  Click the long hexadecimal string for Session ID for your job.
-3.  Find the file called `connection.yml` and open it. You'll find the password for your session in that file. Your username will be your regular Kerberos ID.
-4.  Enter the username and password into RStudio. You'll be taken to a new page with a message. Once you get to that page, simply delete the last part of the URL in the address bar. It will say "AppUri?" or something similar.
 
 ---
 
