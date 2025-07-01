@@ -22,8 +22,8 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 | [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | **Active** | **[Funder Name (Grant #)]** | Literature Review, Data Collection Plan | Policy data collection and initial data linkage | **[Link to Preprint/Forthcoming, if available]** |
 | [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | **Active** | **[Funder Name (Grant #)]** | Geospatial Analysis Plan, Demographic Data Integration | Refine demographic data sources and merge with purchase data | **[Link to Preprint/Forthcoming, if available]** |
 | [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of Instore+drivethrough analysis by the 6 constituent analyses. | Emil | **Active** | **[Funder Name (Grant #)]** | Disaggregated Analysis Reports | Validate disaggregated findings against main analysis | **[Link to Preprint/Forthcoming, if available]** |
-| [LOREM IPSEM Project ML 1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-ML-1]) | Brief summary of LOREM IPSEM Project ML 1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
-| [LOREM IPSEM Project ML 2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-ML-2]) | Brief summary of LOREM IPSEM Project ML 2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ### Soda Tax
 
@@ -33,9 +33,9 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 | [Tacobell2 Codebook](https://github.com/Brian-Elbel-s-Research-Projects/tb2codebook) | Codebook with information on data available in tacobell2 database. | Kriti | **Completed** | **[Funder Name (Grant #)]** | Comprehensive Codebook | N/A | - |
 | [Price change in beverage and combo meal](https://github.com/Brian-Elbel-s-Research-Projects/soda-tax-price-change) | H1 and H2 of Aim 1: examine pass-thru of price per oz for beverages and price of combo meal. | Erilia | **Active** | **[Funder Name (Grant #)]** | Price Pass-Through Analysis | Econometric modeling and sensitivity analysis | **[Link to Preprint/Forthcoming, if available]** |
 | [Calorie change](https://github.com/Brian-Elbel-s-Research-Projects/soda_tax_calorie_change) | Aim 2: change in calories ordered as a result of soda tax. | Erilia | **Active** | **[Funder Name (Grant #)]** | Calorie Change Analysis | Regression analysis and robustness checks | **[Link to Preprint/Forthcoming, if available]** |
-| Analysis by community characteristics | Examine the impact of soda tax on purchases by demographic characteristics in surrounding communities. | **[Analyst(s)]** | **[Status, e.g., Planned/Active]** | **[Funder Name (Grant #)]** | **[Deliverables]** | **[Next Steps]** | **[Link to Preprint/Forthcoming, if available]** |
-| [LOREM IPSEM Project ST 1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-ST-1]) | Brief summary of LOREM IPSEM Project ST 1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
-| [LOREM IPSEM Project ST 2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-ST-2]) | Brief summary of LOREM IPSEM Project ST 2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
+| Analysis by community characteristics | Examine the impact of soda tax on purchases by demographic characteristics in surrounding communities. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM FUNDING** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** | **LOREM IPSEM PAPER** |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ### COVID/SPHR
 
@@ -43,19 +43,19 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 |---|---|---|---|---|---|---|---|
 | [Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors) | Descriptive disparities in vaccine uptake among NYC students. | Lloyd | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Statistical Analysis Code | N/A | [COVID-19 vaccines for children: Racial and ethnic disparities in New York City](https://www.sciencedirect.com/science/article/pii/S2211335523002486) |
 | Vaccine uptake - schools | The association between school-level COVID vaccination rate and race and ethnicity. | Eric | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Data Visualization | N/A | [Analysis of School-Level Vaccination Rates by Race, Ethnicity, and Geography in New York City](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2796283) |
-| [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Codebooks for COVID/SPHR related datasets. | **[Analyst(s)]** | **Completed** | **[Funder Name (Grant #)]** | Data Documentation | N/A | - |
-| [LOREM IPSEM Project CV1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-CV1]) | Brief summary of LOREM IPSEM Project CV1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
-| [LOREM IPSEM Project CV2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-CV2]) | Brief summary of LOREM IPSEM Project CV2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
+| [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Codebooks for COVID/SPHR related datasets. | **LOREM IPSEM ANALYST** | **Completed** | **LOREM IPSEM FUNDING** | Data Documentation | N/A | - |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 **Note on Racial and Ethnic Disparities in COVID-19 Vaccine Uptake:**
 Regarding the "Vaccine uptake - students" project, the published paper, "[COVID-19 vaccines for children: Racial and ethnic disparities in New York City](https://www.sciencedirect.com/science/article/pii/S2211335523002486)," highlights significant disparities. For instance, in New York City, by March 2022, only **37.7%** of children aged 5-17 years had completed a primary vaccination series. Among these, **non-Hispanic Black** children had the lowest vaccination rates at **25.6%**, compared to **35.7%** for **Hispanic** children, **51.8%** for **non-Hispanic White** children, and **56.6%** for **non-Hispanic Asian** children. These disparities underscore the ongoing need to address equitable access and uptake of vaccines across different racial and ethnic groups.
 
-### Yondr (New Section)
+### Yondr
 
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
-| [LOREM IPSEM Project Y1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-Y1]) | Brief summary of LOREM IPSEM Project Y1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
-| [LOREM IPSEM Project Y2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-Y2]) | Brief summary of LOREM IPSEM Project Y2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
+| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | LOREM IPSEM ANALYST A | LOREM IPSEM STATUS A | LOREM IPSEM FUNDING A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A | LOREM IPSEM PAPER A |
+| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | LOREM IPSEM ANALYST B | LOREM IPSEM STATUS B | LOREM IPSEM FUNDING B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B | LOREM IPSEM PAPER B |
 
 ---
 
@@ -63,24 +63,35 @@ Regarding the "Vaccine uptake - students" project, the published paper, "[COVID-
 
 This section lists projects that have been completed, merged into other projects, or are no longer actively maintained. When a project is finished or integrated elsewhere, please move its entry from the "Current Research Projects" section to here.
 
+### General Archived Projects
+
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
-| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and overall elsewhere. | Lloyd, Emil | **Completed** | **[Funder Name (Grant #, e.g., NIH R01 CA12345)]** | Published Paper, Data Analysis Script | N/A | Menu Labeling and Calories Purchased in Restaurants in a National Fast Food Chain (forthcoming) |
-| Healthy Neighborhood: [Pre/post survey analysis](https://github.com/Brian-Elbel-s-Research-Projects/Healthy-Neighborhoods-Fund) | Analysis of pre/post surveys related to the Healthy Neighborhoods Fund initiative. | Pedro | **Completed** | **[Funder Name (Grant #)]** | Survey Data Cleaning, Baseline Report | N/A | **[Link to Preprint/Forthcoming, if available]** |
-| Healthy Neighborhood: [LOREM IPSEM Project HN1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-HN1]) | Brief summary of LOREM IPSEM Project HN1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | N/A | [Link to Preprint/Forthcoming, if available] |
-| Healthy Neighborhood: [LOREM IPSEM Project HN2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-HN2]) | Brief summary of LOREM IPSEM Project HN2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | N/A | [Link to Preprint/Forthcoming, if available] |
-| Food Environment & Built Environment: [Food environment paper 1](https://github.com/eriliawu/home-food-env) | Descriptive paper, association between food access and race/ethnicity and income, at home and at school. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Data Visualizations | N/A | [Disparities in food access around homes and schools for New York City children](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217341) |
-| Food Environment & Built Environment: Food environment paper 2 | Association between access to food and likelihood of overweight/obesity, as well as zBMI. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Regression Models | N/A | [Childhood Obesity and the Food Environment](https://onlinelibrary.wiley.com/doi/10.1002/oby.22663) |
-| Food Environment & Built Environment: School food | Effect of food environment around NYC public schools on student obesity outcomes. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Spatial Analysis | N/A | [Relationship between retail food outlets near public schools and adolescent obesity in New York City](https://www.sciencedirect.com/science/article/abs/pii/S1353829219311566) |
-| Food Environment & Built Environment: [FRESH](https://github.com/jeremysze/Dustin_parks) | Impact of FRESH supermarket on childhood obesity of students living nearby. | Jeremy | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Policy Implications Brief | N/A | [Association Between a Policy to Subsidize Supermarkets in Underserved Areas and Childhood Obesity Risk](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2792042) |
-| Food Environment & Built Environment: Gentrification and childhood obesity | The impact of neighborhood gentrification on childhood obesity and zBMI. | Eric | **Completed** | **[Funder Name (Grant #)]** | Data Linkage, Preliminary Statistical Analysis | N/A | **[Link to Preprint/Forthcoming, if available]** |
-| Food Environment & Built Environment: Access to public parks and childhood obesity | The impact of public park access (by type) on student obesity/zBMI. | **[Analyst(s)]** | **Completed** | **[Funder Name (Grant #)]** | Geospatial Data Acquisition, Conceptual Framework | N/A | **[Link to Preprint/Forthcoming, if available]** |
-| Food Environment & Built Environment: [LOREM IPSEM Project FE1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-FE1]) | Brief summary of LOREM IPSEM Project FE1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | N/A | [Link to Preprint/Forthcoming, if available] |
-| Food Environment & Built Environment: [LOREM IPSEM Project FE2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-FE2]) | Brief summary of LOREM IPSEM Project FE2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | N/A | [Link to Preprint/Forthcoming, if available] |
-| Menu labeling on in-store transactions | In-store orders only, treatment sites before national roll-out. | [Analyst(s)] | Merged | **[Funder Name (Grant #)]** | N/A | N/A | N/A |
-| Analysis by purchase characteristics | Examine calorie by purchase characteristics, such as time of day, day of the week, etc. | [Analyst(s)] | Merged | **[Funder Name (Grant #)]** | N/A | N/A | N/A |
-| [LOREM IPSEM Completed Project 1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-C1]) | Brief summary of LOREM IPSEM Completed Project 1. | [Analyst(s)] | **Completed** | **[Funder Name (Grant #)]** | [Key Deliverables] | N/A | [Link to paper, if applicable] |
-| [LOREM IPSEM Completed Project 2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-C2]) | Brief summary of LOREM IPSEM Completed Project 2. | [Analyst(s)] | **Completed** | **[Funder Name (Grant #)]** | [Key Deliverables] | N/A | [Link to paper, if applicable] |
+| LOREM IPSEM PROJECT (Menu labeling in-store transactions) | In-store orders only, treatment sites before national roll-out. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one)". | LOREM IPSEM ANALYST | Merged | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | N/A | N/A |
+| LOREM IPSEM PROJECT (Analysis by purchase characteristics) | Examine calorie by purchase characteristics, such as time of day, day of the week, etc. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)". | LOREM IPSEM ANALYST | Merged | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | N/A | N/A |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+
+### Healthy Neighborhood (Archived)
+
+| Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
+|---|---|---|---|---|---|---|---|
+| [Pre/post survey analysis](https://github.com/Brian-Elbel-s-Research-Projects/Healthy-Neighborhoods-Fund) | Analysis of pre/post surveys related to the Healthy Neighborhoods Fund initiative. | Pedro | **Active** | **[Funder Name (Grant #)]** | Survey Data Cleaning, Baseline Report | Longitudinal data analysis and impact evaluation | **[Link to Preprint/Forthcoming, if available]** |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+
+### Food Environment & Built Environment (Archived)
+
+| Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
+|---|---|---|---|---|---|---|---|
+| [Food environment paper 1](https://github.com/eriliawu/home-food-env) | Descriptive paper, association between food access and race/ethnicity and income, at home and at school. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Data Visualizations | N/A | [Disparities in food access around homes and schools for New York City children](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217341) |
+| Food environment paper 2 | Association between access to food and likelihood of overweight/obesity, as well as zBMI. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Regression Models | N/A | [Childhood Obesity and the Food Environment](https://onlinelibrary.wiley.com/doi/10.1002/oby.22663) |
+| School food | Effect of food environment around NYC public schools on student obesity outcomes. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Spatial Analysis | N/A | [Relationship between retail food outlets near public schools and adolescent obesity in New York City](https://www.sciencedirect.com/science/article/abs/pii/S1353829219311566) |
+| [FRESH](https://github.com/jeremysze/Dustin_parks) | Impact of FRESH supermarket on childhood obesity of students living nearby. | Jeremy | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Policy Implications Brief | N/A | [Association Between a Policy to Subsidize Supermarkets in Underserved Areas and Childhood Obesity Risk](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2792042) |
+| Gentrification and childhood obesity | The impact of neighborhood gentrification on childhood obesity and zBMI. | Eric | **Active** | **[Funder Name (Grant #)]** | Data Linkage, Preliminary Statistical Analysis | Refine gentrification metrics and conduct multivariate analysis | **[Link to Preprint/Forthcoming, if available]** |
+| Access to public parks and childhood obesity | The impact of public park access (by type) on student obesity/zBMI. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM FUNDING** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** | **LOREM IPSEM PAPER** |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ---
 
@@ -90,8 +101,8 @@ This section is for new or ongoing projects that don't fit into the existing cat
 
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
-| [LOREM IPSEM Project ORP 1](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-ORP-1]) | Brief summary of LOREM IPSEM Project ORP 1. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
-| [LOREM IPSEM Project ORP 2](https://github.com/Brian-Elbel-s-Research-Projects/[LOREM-IPSEM-REPO-ORP-2]) | Brief summary of LOREM IPSEM Project ORP 2. | [Analyst(s)] | **[Status]** | **[Funder Name (Grant #)]** | [Key Deliverables] | [Next Steps] | [Link to Preprint/Forthcoming, if available] |
+| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ---
 
