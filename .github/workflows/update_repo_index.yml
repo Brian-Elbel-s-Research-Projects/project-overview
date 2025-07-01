@@ -42,9 +42,9 @@ jobs:
           echo "Recursive file listing from root:"
           ls -R
           echo "--- Attempting to run R script ---"
-          Rscript generate_repo_index.R # <--- This was previously corrected
+          Rscript generate_repo_index.R
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ORG_REPO_PAT }}
 
       - name: Commit and Push changes
         uses: EndBug/add-and-commit@v9
