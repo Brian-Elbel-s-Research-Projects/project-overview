@@ -16,26 +16,15 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
-| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and overall elsewhere. | Lloyd, Emil | **Completed** | **[Funder Name (Grant #, e.g., NIH R01 CA12345)]** | Published Paper, Data Analysis Script | N/A | Menu Labeling and Calories Purchased in Restaurants in a National Fast Food Chain (forthcoming) |
 | [National roll-out](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout) | Impact of menu labeling post national roll-out, interrupted time series. | Emil | **Active** | **[Funder Name (Grant #)]** | Analysis Scripts, Preliminary Findings Report | Data cleaning and preliminary analysis | **[Link to Preprint/Forthcoming, if available]** |
-| [Menu labeling in California](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML) | Compare in-store (treatment) and drive-through orders (comparison). | Kriti, Lloyd | **Active** | **[Funder Name (Grant #)]** | Data Aggregation, Initial Statistical Models | Data validation and statistical modeling | **[Link to Preprint/Forthcoming, if available]** |
-| [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | **Active** | **[Funder Name (Grant #)]** | Literature Review, Data Collection Plan | Policy data collection and initial data linkage | **[Link to Preprint/Forthcoming, if available]** |
-| [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | **Active** | **[Funder Name (Grant #)]** | Geospatial Analysis Plan, Demographic Data Integration | Refine demographic data sources and merge with purchase data | **[Link to Preprint/Forthcoming, if available]** |
-| [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of Instore+drivethrough analysis by the 6 constituent analyses. | Emil | **Active** | **[Funder Name (Grant #)]** | Disaggregated Analysis Reports | Validate disaggregated findings against main analysis | **[Link to Preprint/Forthcoming, if available]** |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ### Soda Tax
 
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
-| [Construct new tacobell database](https://github.com/Brian-Elbel-s-Research-Projects/construct-tacobell2) | Putting together new database, 2015-2020. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Cleaned Dataset, Data Dictionary | N/A | - |
-| [Tacobell2 Codebook](https://github.com/Brian-Elbel-s-Research-Projects/tb2codebook) | Codebook with information on data available in tacobell2 database. | Kriti | **Completed** | **[Funder Name (Grant #)]** | Comprehensive Codebook | N/A | - |
 | [Price change in beverage and combo meal](https://github.com/Brian-Elbel-s-Research-Projects/soda-tax-price-change) | H1 and H2 of Aim 1: examine pass-thru of price per oz for beverages and price of combo meal. | Erilia | **Active** | **[Funder Name (Grant #)]** | Price Pass-Through Analysis | Econometric modeling and sensitivity analysis | **[Link to Preprint/Forthcoming, if available]** |
 | [Calorie change](https://github.com/Brian-Elbel-s-Research-Projects/soda_tax_calorie_change) | Aim 2: change in calories ordered as a result of soda tax. | Erilia | **Active** | **[Funder Name (Grant #)]** | Calorie Change Analysis | Regression analysis and robustness checks | **[Link to Preprint/Forthcoming, if available]** |
 | Analysis by community characteristics | Examine the impact of soda tax on purchases by demographic characteristics in surrounding communities. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM FUNDING** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** | **LOREM IPSEM PAPER** |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ### COVID/SPHR
 
@@ -63,22 +52,28 @@ Regarding the "Vaccine uptake - students" project, the published paper, "[COVID-
 
 This section lists projects that have been completed, merged into other projects, or are no longer actively maintained. When a project is finished or integrated elsewhere, please move its entry from the "Current Research Projects" section to here.
 
-### General Archived Projects
+### Menu Labeling Archived Projects
 
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
 | LOREM IPSEM PROJECT (Menu labeling in-store transactions) | In-store orders only, treatment sites before national roll-out. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one)". | LOREM IPSEM ANALYST | Merged | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | N/A | N/A |
 | LOREM IPSEM PROJECT (Analysis by purchase characteristics) | Examine calorie by purchase characteristics, such as time of day, day of the week, etc. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)". | LOREM IPSEM ANALYST | Merged | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | N/A | N/A |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
+| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and overall elsewhere. | Lloyd, Emil | **Completed** | **[Funder Name (Grant #, e.g., NIH R01 CA12345)]** | Published Paper, Data Analysis Script | N/A | Menu Labeling and Calories Purchased in Restaurants in a National Fast Food Chain (forthcoming) |
+| [Menu labeling in California](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML) | Compare in-store (treatment) and drive-through orders (comparison). | Kriti, Lloyd | **Active** | **[Funder Name (Grant #)]** | Data Aggregation, Initial Statistical Models | Data validation and statistical modeling | **[Link to Preprint/Forthcoming, if available]** |
+| [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | **Active** | **[Funder Name (Grant #)]** | Literature Review, Data Collection Plan | Policy data collection and initial data linkage | **[Link to Preprint/Forthcoming, if available]** |
+| [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | **Active** | **[Funder Name (Grant #)]** | Geospatial Analysis Plan, Demographic Data Integration | Refine demographic data sources and merge with purchase data | **[Link to Preprint/Forthcoming, if available]** |
+| [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of Instore+drivethrough analysis by the 6 constituent analyses. | Emil | **Active** | **[Funder Name (Grant #)]** | Disaggregated Analysis Reports | Validate disaggregated findings against main analysis | **[Link to Preprint/Forthcoming, if available]** |
+
+### Soda Tax (Archived)
+
+| [Construct new tacobell database](https://github.com/Brian-Elbel-s-Research-Projects/construct-tacobell2) | Putting together new database, 2015-2020. | Erilia | **Completed** | **[Funder Name (Grant #)]** | Cleaned Dataset, Data Dictionary | N/A | - |
+| [Tacobell2 Codebook](https://github.com/Brian-Elbel-s-Research-Projects/tb2codebook) | Codebook with information on data available in tacobell2 database. | Kriti | **Completed** | **[Funder Name (Grant #)]** | Comprehensive Codebook | N/A | - |
 
 ### Healthy Neighborhood (Archived)
 
 | Project | Summary | Analyst(s) | Status | Funding Source (Grant #) | Key Deliverables | Next Steps | Published Paper |
 |---|---|---|---|---|---|---|---|
 | [Pre/post survey analysis](https://github.com/Brian-Elbel-s-Research-Projects/Healthy-Neighborhoods-Fund) | Analysis of pre/post surveys related to the Healthy Neighborhoods Fund initiative. | Pedro | **Active** | **[Funder Name (Grant #)]** | Survey Data Cleaning, Baseline Report | Longitudinal data analysis and impact evaluation | **[Link to Preprint/Forthcoming, if available]** |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ### Food Environment & Built Environment (Archived)
 
@@ -90,8 +85,6 @@ This section lists projects that have been completed, merged into other projects
 | [FRESH](https://github.com/jeremysze/Dustin_parks) | Impact of FRESH supermarket on childhood obesity of students living nearby. | Jeremy | **Completed** | **[Funder Name (Grant #)]** | Published Paper, Policy Implications Brief | N/A | [Association Between a Policy to Subsidize Supermarkets in Underserved Areas and Childhood Obesity Risk](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2792042) |
 | Gentrification and childhood obesity | The impact of neighborhood gentrification on childhood obesity and zBMI. | Eric | **Active** | **[Funder Name (Grant #)]** | Data Linkage, Preliminary Statistical Analysis | Refine gentrification metrics and conduct multivariate analysis | **[Link to Preprint/Forthcoming, if available]** |
 | Access to public parks and childhood obesity | The impact of public park access (by type) on student obesity/zBMI. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM FUNDING** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** | **LOREM IPSEM PAPER** |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM FUNDING | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS | LOREM IPSEM PAPER |
 
 ---
 
