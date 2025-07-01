@@ -35,8 +35,6 @@ jobs:
           pwd
           echo "Files in current directory (root of your repo):"
           ls -F
-          echo "Contents of 'project-overview' directory:"
-          ls -F project-overview/
           echo "Recursive file listing from root:"
           ls -R
           echo "--- Attempting to run R script ---"
