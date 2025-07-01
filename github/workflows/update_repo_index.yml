@@ -1,0 +1,44 @@
+name: Update Repository Index
+
+on:
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+
+permissions:
+  contents: write # Grants permission to write to the repository for committing changes
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }} # GitHub's automatically provided token
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.2.0' # Specify the R version you want to use
+
+      - name: Install R dependencies
+        run: |
+          install.packages(c("httr", "jsonlite", "stringr"))
+        shell: Rscript {0}
+
+      - name: Run R script to update README2.md
+        run: Rscript scripts/generate_repo_index.R
+        env:
+          # Pass the GITHUB_PAT from secrets to the R script as an environment variable
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: 'Automated: Update repository index in README2.md'
+          add: 'README2.md' # Only commit README2.md if it was updated
+          # This action will only commit if there are changes
