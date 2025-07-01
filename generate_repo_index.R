@@ -61,8 +61,9 @@ if (!interactive()) { # Only run if not in an interactive R session (i.e., when 
   }
   
   # IMPORTANT: These markers MUST match exactly between your R script and your README2.md file.
-  start_marker <- "start_marker"
-  end_marker <- "end_marker"
+  # THESE ARE THE CORRECT MARKER STRINGS FOR THE R SCRIPT:
+  start_marker <- "" 
+  end_marker <- ""
   
   # --- Read and Update README2.md ---
   readme_content <- character()
