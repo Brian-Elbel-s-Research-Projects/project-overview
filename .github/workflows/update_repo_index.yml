@@ -3,7 +3,7 @@ name: Update Repository Index Pushed
 on:
   workflow_dispatch: # Allows manual triggering from GitHub UI
   schedule:
-    - cron: '0 0 1 * *' # Runs daily at midnight UTC
+    - cron: '0 0 1 * *' # Runs monthly
 
 permissions:
   contents: write # Grants permission to write to the repository for committing changes
