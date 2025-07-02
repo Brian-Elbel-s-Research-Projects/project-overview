@@ -1,12 +1,32 @@
 # Elbel Lab Research Projects
 
-A comprehensive overview of current and past research initiatives from the Elbel Lab, focusing on public health interventions related to nutrition, food environments, and health disparities. Our work aims to provide evidence-based insights to inform policy and improve community health outcomes.
+A summary overview of current and past research initiatives from the Elbel Lab. Our work aims to provide evidence-based insights to inform policy and improve community health outcomes.
+
+Sections include:
+- Lab Mission
+- Current Research Projects
+  - Menu Labeling
+  - Soda Tax
+  - SPHR/COVID Core
+  - Diabetes
+  - Social Media
+  - Yondr
+- Archived and Completed Research Projects
+  - Menu Labeling (Archived),
+  - Healthy Neighborhood (Archived),
+  - Food and Built Enviro (Archived),
+  - Soda Tax (Archived),
+- Other Projects,
+- HPC Access and Use,
+- Project Management Link and Instructions,
+- Contact Info,
+- Index of all Repos via Automation
 
 ---
 
 ## Lab Mission and Impact
 
-The Elbel Lab is dedicated to conducting rigorous research at the intersection of public health, economics, and policy. Our primary goal is to generate actionable evidence that can directly inform and evaluate public health interventions, with a particular focus on improving dietary choices, understanding the impact of food environments, and addressing health inequities. We strive to contribute to a healthier society through robust data analysis and dissemination of our findings to academic, policy, and public audiences.
+The Elbel Lab is dedicated to conducting rigorous quantitative research at the intersection of public health, heath economics, and public policy. Our primary goal is to generate actionable evidence that can directly inform and evaluate public health interventions, with a particular focus on improving dietary choices, understanding the impact of food environments, and addressing health inequities. We strive to contribute to a healthier society through robust data analysis and dissemination of our findings to academic, policy, and public audiences.
 
 ---
 
@@ -16,44 +36,36 @@ The Elbel Lab is dedicated to conducting rigorous research at the intersection o
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| [National roll-out](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout) | Impact of menu labeling post national roll-out, interrupted time series. | Emil | **Active** | Analysis Scripts, Preliminary Findings Report | Data cleaning and preliminary analysis |
+| [National roll-out](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout) | Impact of menu labeling post national roll-out, interrupted time series. | Emil | **Active** | Main analytic products; manuscripting | R&R in review |
 
 ### Soda Tax
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| [Price change in beverage and combo meal](https://github.com/Brian-Elbel-s-Research-Projects/soda-tax-price-change) | H1 and H2 of Aim 1: examine pass-thru of price per oz for beverages and price of combo meal. | Erilia | **Active** | Price Pass-Through Analysis | Econometric modeling and sensitivity analysis |
-| [Calorie change](https://github.com/Brian-Elbel-s-Research-Projects/soda_tax_calorie_change) | Aim 2: change in calories ordered as a result of soda tax. | Erilia | **Active** | Calorie Change Analysis | Regression analysis and robustness checks |
-| Analysis by community characteristics | Examine the impact of soda tax on purchases by demographic characteristics in surrounding communities. | **LOREM IPSEM ANALYST** | **LOREM IPSEM STATUS** | **LOREM IPSEM DELIVERABLES** | **LOREM IPSEM NEXT STEPS** |
-
-### COVID/SPHR Core/Initiative
-
-| Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
-|---|---|---|---|---|---|
-| [Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors) | Descriptive disparities in vaccine uptake among NYC students. | Lloyd | **Completed** | Statistical Analysis Code | N/A |
-| Vaccine uptake - schools | The association between school-level COVID vaccination rate and race and ethnicity. | Eric | **Completed** | Data Visualization | N/A |
-| [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Codebooks for COVID/SPHR related datasets. | **LOREM IPSEM ANALYST** | **Completed** | Data Documentation | N/A |
+| [Price change in beverage and combo meal](https://github.com/Brian-Elbel-s-Research-Projects/soda-tax-price-change) | H1 and H2 of Aim 1: examine pass-thru of price per oz for beverages and price of combo meal. | Erilia | **Active** | 07/01/2025 meeting items | 07/01/2025 meeting items |
+| [Calorie change](https://github.com/Brian-Elbel-s-Research-Projects/soda_tax_calorie_change) | Aim 2: change in calories ordered as a result of soda tax. | Erilia | **Active** | 07/01/2025 meeting items | 07/01/2025 meeting items |
+| Analysis by community characteristics | Examine the impact of soda tax on purchases by demographic characteristics in surrounding communities. | Erilia | **Active** | **LOREM IPSEM** | **LOREM IPSEM** |
 
 ### Diabetes
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | LOREM IPSEM ANALYST A | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
-| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | LOREM IPSEM ANALYST B | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
+| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | Lloyd | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
+| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | Lloyd | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
 
 ### Social Media
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | LOREM IPSEM ANALYST A | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
-| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | LOREM IPSEM ANALYST B | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
+| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | Emil | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
+| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | Emil | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
 
 ### Yondr
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | LOREM IPSEM ANALYST A | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
-| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | LOREM IPSEM ANALYST B | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
+| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | Emil | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
+| LOREM IPSEM PROJECT B | LOREM IPSEM SUMMARY B | External | LOREM IPSEM STATUS B | LOREM IPSEM DELIVERABLES B | LOREM IPSEM NEXT STEPS B |
 
 ---
 
@@ -73,6 +85,14 @@ This section lists projects that have been completed, merged into other projects
 | [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | **Active** | Geospatial Analysis Plan, Demographic Data Integration | Refine demographic data sources and merge with purchase data |
 | [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of Instore+drivethrough analysis by the 6 constituent analyses. | Emil | **Active** | Disaggregated Analysis Reports | Validate disaggregated findings against main analysis |
 
+### COVID/SPHR Core/Initiative
+
+| Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
+|---|---|---|---|---|---|
+| Vaccine uptake - schools | The association between school-level COVID vaccination rate and race and ethnicity. | Eric | **Completed** | Data Visualization | N/A |
+| [Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors) | Descriptive disparities in vaccine uptake among NYC students. | Lloyd | **Completed** | Statistical Analysis Code | N/A |
+| [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Codebooks for COVID/SPHR related datasets. | **Kriti, Juan, Lloyd, Emil** | **Completed** | Data Documentation | N/A |
+
 ### Healthy Neighborhood (Archived)
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
@@ -81,7 +101,7 @@ This section lists projects that have been completed, merged into other projects
 | LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
 | LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
 
-### Food Environment & Built Environment (Archived)
+### Food & Built Environment (Archived)
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
