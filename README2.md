@@ -25,7 +25,7 @@ Sections include:
 
 ---
 
-## Lab Mission and Impact
+## Lab
 
 The Elbel Lab is dedicated to conducting rigorous quantitative research at the intersection of public health, heath economics, and public policy. Our primary goal is to generate actionable evidence that can directly inform and evaluate public health interventions, with a particular focus on improving dietary choices, understanding the impact of food environments, and addressing health inequities. We strive to contribute to a healthier society through robust data analysis and dissemination of our findings to academic, policy, and public audiences.
 
@@ -37,7 +37,7 @@ The Elbel Lab is dedicated to conducting rigorous quantitative research at the i
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| [National roll-out](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout) | Impact of menu labeling post national roll-out, interrupted time series. | Emil | Active | Main analytic products; manuscripting | R&R in review |
+| [National roll-out](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout) | Impact of menu labeling post national roll-out via ITS then SC DID | Emil | Active | Main analytic process | R&R pending |
 
 ### Soda Tax
 
@@ -76,12 +76,12 @@ This section lists projects that have been completed, merged into other projects
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| Menu labeling in-store transactions | In-store orders only, treatment sites before national roll-out. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one)". | Emil, Lloyd | Merged | Full analytical process | N/A |
-| Analysis by purchase characteristics | Examine calorie by purchase characteristics, such as time of day, day of the week, etc. Merged with "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)". | Emil, Lloyd | Merged | Full analytical process | N/A |
-| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and overall elsewhere. | Lloyd, Emil | Completed | Full analytical process | N/A |
-| [Menu labeling in California](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML) | Compare in-store (treatment) and drive-through orders (comparison). | Kriti, Lloyd | Completed | Full analytical process | N/A |
-| [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | Merged | Literature Review, Data Collection Plan | N/A |
+| Menu labeling in-store vs drivethrough transactions | In-store orders only, early-treated pre-NR implementations. Merged to become "Impact of menu labeling on calories purchased: [primary_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one)". | Emil, Lloyd | Merged | Full analytical process | N/A |
+| Analysis by-location characteristics | Examine calorie by-location. Merged with community characterstics paper | Emil, Lloyd | Merged | Full analytical process | N/A |
 | [Purchase by community characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics) | Examine calorie purchase by demographic characteristics in communities surrounding the restaurants. | Emil, Lloyd | Merged | Full analytical process | N/A |
+| Impact of menu labeling on calories purchased: [primary\_analysis](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one) | Impact of menu labeling on California in-store purchases, and all purchase-occasions elsewhere. | Lloyd, Emil | Completed | Full analytical process | N/A |
+| [Menu labeling in California](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML) | Compare in-store (treatment) and drive-through orders (comparison). | Kriti, Lloyd, Emil | Completed | Full analytical process | N/A |
+| [Legislation vs. implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation) | Compare sites that passed the law (never implemented) and the ones that implemented. | Pedro | Merged | Literature Review, Data Collection Plan | N/A |
 | [by-location analysis of in_store+full_aggregated](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location) | Decomposition of instore+drivethrough analysis by the 6 constituent analyses. | Emil, Lloyd | Merged | Full analytical process | N/A |
 
 ### COVID/SPHR Core/Initiative
@@ -89,16 +89,15 @@ This section lists projects that have been completed, merged into other projects
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
 | Vaccine uptake - schools | The association between school-level COVID vaccination rate and race and ethnicity. | Eric | Completed | Data Visualization | N/A |
-| [Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors) | Descriptive disparities in vaccine uptake among NYC students. | Lloyd | Completed | Statistical Analysis Code | N/A |
+| [Vaccine uptake - students](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors) | Descriptive disparities in vaccine uptake among NYC students. | Lloyd | Completed | Analytic process | N/A |
 | [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Codebooks for COVID/SPHR related datasets. | Kriti, Juan, Lloyd, Emil | Completed | Data Documentation | N/A |
+| [Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook) | Early script to visualize ASHR structure and metadata | Emil | Completed | EDA Data Documentation | N/A |
 
 ### Healthy Neighborhood (Archived)
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
 | [Pre/post survey analysis](https://github.com/Brian-Elbel-s-Research-Projects/Healthy-Neighborhoods-Fund) | Analysis of pre/post surveys related to the Healthy Neighborhoods Fund initiative. | Pedro | Active | Survey Data Cleaning, Baseline Report | Longitudinal data analysis and impact evaluation |
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
 
 ### Food & Built Environment (Archived)
 
@@ -107,9 +106,11 @@ This section lists projects that have been completed, merged into other projects
 | [Food environment paper 1](https://github.com/eriliawu/home-food-env) | Descriptive paper, association between food access and race/ethnicity and income, at home and at school. | Erilia | Completed | Data Visualizations | N/A |
 | Food environment paper 2 | Association between access to food and likelihood of overweight/obesity, as well as zBMI. | Erilia | Completed | Regression Models | N/A |
 | School food | Effect of food environment around NYC public schools on student obesity outcomes. | Erilia | Completed | Spatial Analysis | N/A |
-| [FRESH](https://github.com/jeremysze/Dustin_parks) | Impact of FRESH supermarket on childhood obesity of students living nearby. | Jeremy | Completed | Policy Implications Brief | N/A |
+| [FRESH](https://github.com/jeremysze/) | Impact of FRESH supermarket on childhood obesity of students living nearby. | Jeremy | Completed | Policy Implications Brief | N/A |
 | Gentrification and childhood obesity | The impact of neighborhood gentrification on childhood obesity and zBMI. | Eric | Completed | Data Linkage, Preliminary Statistical Analysis | Refine gentrification metrics and conduct multivariate analysis |
 | Access to public parks and childhood obesity | The impact of public park access (by type) on student obesity/zBMI. | Erilia | Completed | Full analytical process | N/A |
+| [food-density](https://github.com/Brian-Elbel-s-Research-Projects/food-density) | Food density project | Enoch | Completed | EDA and Analysis | N/A |
+| [foodenv-corrections](https://github.com/Brian-Elbel-s-Research-Projects/foodenv-corrections) | Food environment correctsions | Ishmam | Abandoned | EDA | N/A |
 
 ## Soda Tax (Archived)
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
@@ -125,8 +126,8 @@ This section is for new or ongoing projects that don't fit into the existing cat
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| LOREM IPSEM PROJECT 1 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
-| LOREM IPSEM PROJECT 2 | LOREM IPSEM SUMMARY | LOREM IPSEM ANALYST | LOREM IPSEM STATUS | LOREM IPSEM DELIVERABLES | LOREM IPSEM NEXT STEPS |
+| [delta_function_to_estimate_CI](https://github.com/Brian-Elbel-s-Research-Projects/delta_function_to_estimate_CI) | Menu Labeling and Soda Tax analytic method improvement | Erilia, Lloyd, Emil | Completed | Function in repo | Implement when and where appropriate |
+| [onboarding-Emil](https://github.com/Brian-Elbel-s-Research-Projects/onboarding-Emil) | Checklist for Emil onboarding 2021 | Erilia, Emil | Completed | Functional employee | N/A |
 
 ---
 
@@ -178,59 +179,13 @@ Analysts frequetly use GitHub issues to track projects (as above), mark conversa
 
 ## Contact and Further Information
 
-For general inquiries about the Elbel Lab, our research, or potential collaborations, please feel free to contact us directly via email at [emil.hafeez@nyulangone.org]. For specific questions about a particular project or data, please refer to the "Analyst(s)" listed in the project tables or reach out via Outlook's Contact List.
+For general inquiries about the Elbel Lab, our research, or potential collaborations, please feel free to contact us directly via email at [emil.hafeez@nyulangone.org], [Erilia.Wu@nyulangone.org], and/or [Lloyd.Heng@nyulangone.org]. For specific questions about a particular project or data, please refer to the "Analyst(s)" listed in the project tables.
 
 ---
 
 ## License
 
-Please ask.
-
----
-
-## Index of All Repositories
-
-
-This section is automatically generated by a GitHub Action. It provides an up-to-date list of all public and private repositories under the `Brian-Elbel-s-Research-Projects` organization. This automation helps ensure that this README always reflects the full scope of our projects on GitHub.
-
-
-
-
-
-* [admin-repo](https://github.com/Brian-Elbel-s-Research-Projects/admin-repo)
-* [California-Only-ML](https://github.com/Brian-Elbel-s-Research-Projects/California-Only-ML)
-* [construct-tacobell2](https://github.com/Brian-Elbel-s-Research-Projects/construct-tacobell2)
-* [covid_sphr_ashr_metadata](https://github.com/Brian-Elbel-s-Research-Projects/covid_sphr_ashr_metadata)
-* [COVID-SPHR-Codebook](https://github.com/Brian-Elbel-s-Research-Projects/COVID-SPHR-Codebook)
-* [delta_function_to_estimate_CI](https://github.com/Brian-Elbel-s-Research-Projects/delta_function_to_estimate_CI)
-* [food-density](https://github.com/Brian-Elbel-s-Research-Projects/food-density)
-* [foodenv-corrections](https://github.com/Brian-Elbel-s-Research-Projects/foodenv-corrections)
-* [Healthy-Neighborhoods-Fund](https://github.com/Brian-Elbel-s-Research-Projects/Healthy-Neighborhoods-Fund)
-* [init_test_repo_elbel](https://github.com/Brian-Elbel-s-Research-Projects/init_test_repo_elbel)
-* [internal-learning](https://github.com/Brian-Elbel-s-Research-Projects/internal-learning)
-* [menu_labeling_by_location](https://github.com/Brian-Elbel-s-Research-Projects/menu_labeling_by_location)
-* [menu-labeling-community-characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-community-characteristics)
-* [menu-labeling-impact-by-community-characteristics](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-by-community-characteristics)
-* [menu-labeling-impact-on-calories-drive-through](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-impact-on-calories-drive-through)
-* [menu-labeling-in-store-transactions](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-in-store-transactions)
-* [menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-prop-score-and-sc-combined-main-analysis-paper-one)
-* [menu-labeling-within-CA](https://github.com/Brian-Elbel-s-Research-Projects/menu-labeling-within-CA)
-* [MenuLabeling_Legislation-v-Implementation](https://github.com/Brian-Elbel-s-Research-Projects/MenuLabeling_Legislation-v-Implementation)
-* [ml-national-rollout](https://github.com/Brian-Elbel-s-Research-Projects/ml-national-rollout)
-* [onboarding-Emil](https://github.com/Brian-Elbel-s-Research-Projects/onboarding-Emil)
-* [project-overview](https://github.com/Brian-Elbel-s-Research-Projects/project-overview)
-* [social_media](https://github.com/Brian-Elbel-s-Research-Projects/social_media)
-* [soda_tax_calorie_change](https://github.com/Brian-Elbel-s-Research-Projects/soda_tax_calorie_change)
-* [soda-tax-community-characteristics](https://github.com/Brian-Elbel-s-Research-Projects/soda-tax-community-characteristics)
-* [soda-tax-price-change](https://github.com/Brian-Elbel-s-Research-Projects/soda-tax-price-change)
-* [sphr-covid-vacc-uptake-predictors](https://github.com/Brian-Elbel-s-Research-Projects/sphr-covid-vacc-uptake-predictors)
-* [tb2codebook](https://github.com/Brian-Elbel-s-Research-Projects/tb2codebook)
-* [yondr](https://github.com/Brian-Elbel-s-Research-Projects/yondr)
-* [yondr_project](https://github.com/Brian-Elbel-s-Research-Projects/yondr_project)
-
-
-
-
+Ask.
 
 ---
 
