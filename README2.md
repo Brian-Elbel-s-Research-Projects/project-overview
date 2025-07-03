@@ -51,7 +51,7 @@ The Elbel Lab is dedicated to conducting rigorous quantitative research at the i
 
 | Project | Summary | Analyst(s) | Status | Key Deliverables | Next Steps |
 |---|---|---|---|---|---|
-| LOREM IPSEM PROJECT A | LOREM IPSEM SUMMARY A | Lloyd | LOREM IPSEM STATUS A | LOREM IPSEM DELIVERABLES A | LOREM IPSEM NEXT STEPS A |
+| Diabetes and COVID-19 | Trends and predictors of Diabetes incidence and severity, and its impact on other health and education outcomes among NYC public school students | Lloyd | Active; Proposal submitted | N/A | N/A |
 
 ### Social Media
 
